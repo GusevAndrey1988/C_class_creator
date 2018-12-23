@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp C_class_creator.exe /usr/bin/C_class_creator.exe
+cp CC_create /usr/bin/CC_create

@@ -28,7 +28,6 @@ struct Config {
 
 /** 
  * @brief Возвращает путь рабочего каталога
- * @param none
  * @return Путь рабочего каталога
  */
 std::string get_work_dir()
@@ -40,7 +39,7 @@ std::string get_work_dir()
 
 /**
  * @brief Возвращает значение следующее за ключом
- * @param i Текущее половение в массиве
+ * @param i Текущее положение в массиве
  * @param argc Число елементов массива
  * @param argv Массив
  * @return Значение ключа
@@ -88,7 +87,7 @@ void print_str_values(const std::vector<std::string> &values)
 }
 
 /**
- * @brief Выводит заданные параметры
+ * @brief Выводит заданные параметры 
  */
 void print_config(const Config &conf) 
 {
